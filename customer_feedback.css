@@ -27,7 +27,7 @@ label {
 }
 #number-label>input {
   margin: 20px 0px 20px 10px;
-  width: 40px;
+  width: 50px;
  
 }
 .label-display-block {
@@ -35,7 +35,7 @@ label {
 }
 #number {
   margin-left: 30px;
-  width: 40px;
+  width: 50px;
   margin-bottom: 20px;
 }
 
