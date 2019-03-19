@@ -1,0 +1,84 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	
+	<title>Article on crabs</title>
+	<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="customer_feedback.css">
+</head>
+
+<body>
+  <div id="form-display">
+  <header>
+    <h1 id="title">Customer feedback survey
+    </h1>
+    <p id="description">
+    Please let us know about your experience with our product and service. 
+    </p>
+  </header>
+  <form id="survey-form">
+   <div>
+      <label>
+        Is this the first time you are using our services ?
+      </label>
+      <select name="" id="dropdown">
+        <option disabled selected="" value="">Select an option</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+   
+    <div>
+      <label id="number-label">
+      Age:
+        <input type="number" name="Age" required="" min=1 max=130 placeholder="Age">
+      </label>
+      
+    </div>
+   <div> 
+      <label class="label-display-block">
+        On a scale from 1 to 10 how likely are you to recommend us to a friend ?
+        <input id="number" type="number" name="Option" required="" min=1 max=10 placeholder="1-10">
+      </label>
+   </div>
+    <div>
+       <label class="label-display-block">
+        How satisfied are you with our company overall?
+      </label>
+      <form>
+        <input type="radio" name="Satisfaction" value="Very Satisfied">Very Satisfied<br>
+        <input type="radio" name="Satisfaction" value="Satisfied">Satisfied <br>
+        <input type="radio" name="Satisfaction" value="Undecided">Undecided <br>
+        <input type="radio" name="Satisfaction" value="Unsatisfied">Unsatisfied <br>
+        <input type="radio" name="Satisfaction" value="Very Unsatisfied">Very Unsatisfied 
+      </form>  
+      <p>Please leave your email address if you would like us to contact you regarding any questions.</p>
+      <div>
+        <label id="name-label">
+          Name:
+        </label>
+        <label id="email-label">
+          E-mail address:
+        </label>  
+      </div>
+      <input type="text" id="name" name="Name" placeholder="Enter your name" required>
+      <input type="email" id="email" name="Email-address" placeholder="Enter your e-mail address" required>
+      </div>
+     <div>
+       <p>If you're interested in some of our other products, check boxes of interest to get newest updates.
+       </p>
+        <input type="checkbox" name="checkbox1" value="Carpeting">Carpeting<br>
+        <input type="checkbox" name="checkbox2" value="Surveying">Surveying<br>
+        <input type="checkbox" name="checkbox3" value="Cleaning" >Cleaning<br>
+     </div>
+     <div>
+       <p>Any Comments or Suggestions?</p>
+       <textarea rows="5" cols="50" name="comment" form="usrform">
+Enter text here...</textarea>
+     </div>
+     <button id="submit" type="submit" value="Submit">Submit</button>
+    </div>
+  </form>
+  </div>
+</body>
